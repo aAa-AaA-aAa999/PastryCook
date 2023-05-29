@@ -1,0 +1,11 @@
+D:\сишарп\PastryCook\bin\Debug\PastryCook.exe.config
+D:\сишарп\PastryCook\bin\Debug\PastryCook.exe
+D:\сишарп\PastryCook\bin\Debug\PastryCook.pdb
+D:\сишарп\PastryCook\obj\Debug\PastryCook.csproj.AssemblyReference.cache
+D:\сишарп\PastryCook\obj\Debug\PastryCook.Properties.Resources.resources
+D:\сишарп\PastryCook\obj\Debug\PastryCook.csproj.GenerateResource.cache
+D:\сишарп\PastryCook\obj\Debug\PastryCook.csproj.CoreCompileInputs.cache
+D:\сишарп\PastryCook\obj\Debug\PastryCook.exe
+D:\сишарп\PastryCook\obj\Debug\PastryCook.pdb
+D:\сишарп\PastryCook\obj\Debug\PastryCook.FormAI.resources
+D:\сишарп\PastryCook\obj\Debug\PastryCook.Form1.resources
