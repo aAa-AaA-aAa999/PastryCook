@@ -73,7 +73,7 @@ namespace PastryCook
             {
                 v.Visible = false;
             }
-
+            
             FlourLabel.Add(FlourIng); // мучные
             FlourLabel.Add(FlourIng2);
             FlourLabel.Add(FlourRec);
@@ -88,7 +88,6 @@ namespace PastryCook
             {
                 v.Visible = false;
             }
-           
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -145,7 +144,6 @@ namespace PastryCook
                     v.Visible = false;
                 }
 
-            
                 foreach (var v in FlourLabel)
                 {
                   v.Visible = false;
@@ -164,6 +162,7 @@ namespace PastryCook
             {
                 v.Visible = false;
             }
+            
             foreach (var v in MussPicture)
             {
                 v.Visible = false;
@@ -347,7 +346,6 @@ namespace PastryCook
             }
         }
     }
-    
     //
     //отладочный класс
     //
