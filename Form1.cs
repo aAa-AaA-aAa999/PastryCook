@@ -24,7 +24,14 @@ namespace PastryCook
 
         List<Label> FlourLabel = new List<Label>();
         List<PictureBox> FlourPicture = new List<PictureBox>();
-
+        //
+        // логирование
+        //
+        static void Log(string message)
+        {
+            string logmessage = $"{DateTime.Now} - {message}{Environment.NewLine}";
+            File.AppendAllText(@"D:\сишарп\PastryCook\log.txt", logmessage);
+        }
         public Form1()
         {
             InitializeComponent();
@@ -109,6 +116,8 @@ namespace PastryCook
                 // вызов второй формы
                 FormAI fai = new FormAI();
                 fai.Show();
+                
+                Log("Пользователь просмотрел дополнительную информацию");
         }
         //
         // обработчики нажатий
@@ -152,6 +161,8 @@ namespace PastryCook
                 {
                    v.Visible = false;
                 }
+
+                Log("Пользователь просмотрел рецепт муссовых изделий");
         }
 
         private void CustardCake_Click(object sender, EventArgs e)
@@ -194,6 +205,8 @@ namespace PastryCook
             {
                 v.Visible = false;
             }
+
+            Log("Пользователь просмотрел рецепт заварных изделий");
         }
 
         private void MeringCake_Click(object sender, EventArgs e)
@@ -235,6 +248,8 @@ namespace PastryCook
             {
                 v.Visible = false;
             }
+
+            Log("Пользователь просмотрел рецепт меренговых изделий");
         }
 
         private void FlourCake_Click(object sender, EventArgs e)
@@ -276,6 +291,8 @@ namespace PastryCook
             {
                 v.Visible = true;
             }
+
+            Log("Пользователь просмотрел рецепт мучных изделий");
         }
 
         private void AddRecipe_Click(object sender, EventArgs e)
@@ -302,6 +319,8 @@ namespace PastryCook
             {
                 Console.WriteLine(an.Message);
             }
+            
+            Log("Пользователь добавил свой рецепт");
         }
     }
     //
